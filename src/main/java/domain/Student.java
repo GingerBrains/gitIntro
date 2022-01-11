@@ -1,5 +1,9 @@
 package domain;
 
+/**
+ * Holds information about the student.
+ */
+
 public class Student {
     private String name;
     private Long rollNumber;

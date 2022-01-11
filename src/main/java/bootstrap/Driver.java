@@ -17,10 +17,16 @@ public class Driver {
         configureLogging("var/log/gitIntro/gitIntro.log","INFO");
         System.out.println("Hello World");
         logger.info("Hello World");
+
         Student student = new Student();
         student.setName("Laurel");
         student.setRollNumber(1019118L);
         student.setAddress("Mulund East");
+
+        Student student1 = new Student();
+        student1.setName("Laurel");
+        student1.setRollNumber(-1019118L);
+        student1.setAddress("Mulund East");
     }
 
     public static String configureLogging(String logFile,String logLevel){
